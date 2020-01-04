@@ -1,0 +1,117 @@
+웹의 동작원리
+
+서버에는 실제로 반영되지 않음.
+프론트엔드 (정샘물-> 스파르타!)
+서버에 받은 데이터를 사용자가 사용할 수 있도록 도와줌
+html 뼈대
+css : display
+javascript 브라우저가 이해할 수 있는 유일한 언어
+요렇게 그려줘/움직여줘~!
+
+웹과 앱
+웹 서버에서 넘어온 그림을 구현해줌.
+앱 내 기기가 구현
+Json 형식 (괄호사용)
+
+서버=은행
+API=창구
+클라이언트=고객
+
+
+서버-클라이언트
+-> 서버/DB-클라이언트
+->서버-라우터-웹서버-DB*
+
+DB(data base)
+
+프로그래밍언어
+-컴파일 언어
+-인터프리터언어 (한줄한줄 이해)
+JAVASCRIPT, PYTHON*
+*GOOGLE, 아마존 등이 사용
+
+프레임워크VS.라이브러리
+https://blog.metafor.kr/138
+
+STACK OVERFLOW
+
+
+
+
+
+저장(ctrl+s) -> f12
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>스파르타코딩클럽의 페이지</title>
+</head>
+<body>
+	<!-- 구역을 나누는 태그들 -->
+	<div>나는 구역을 나누죠</div>
+	<p>나는 문단이에요</p>
+	<ol>
+		<li> bullet point!1 </li>
+		<li> bullet point!2 </li>
+	</ol>
+
+	<!-- 구역 내 콘텐츠 태그들 -->
+	<h1>h1은 제목을 나타내는 태그입니다. 페이지마다 하나씩 꼭 써주는 게 좋아요. 구글 검색이 잘 되거든요.</h1>
+	<h2>h2는 소제목입니다.</h2>
+	<h3>h3~h6도 각자의 역할이 있죠. 비중은 작지만ㅎ</h3>
+
+	<p>특정 <span style="color:red">글자</span>를 꾸밀 때 써요</p>
+	<a href="http://naver.com/"> 하이퍼링크 </a>
+	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+	<input type="text"/>
+	<button> 버튼입니다</button>
+	<textarea>나는 무엇일까요?</textarea>
+</body>
+</html>
+
+
+(div vs. p)
+div 구역을 나누는 테그
+p 문단을 나누는 테그 (위아래 여백이 생김/margin*)
+
+
+(ul vs. li)
+순서가 없는 list: ul
+ul
+ol
+
+h1 제목
+h2 소제목
+h2 sub 제목
+
+span 글자 스타일-> 줄바꿈이 안생긴다
+(p or div는 줄바꿈이 생김)
+(style: css 문법을 따른다)
+
+a=link  
+href 하이퍼링크
+
+
+
+class 여러번쓰는것
+id 한 번 쓰는것
+
+
+
+
+
+
+
+
+
+padding: 70px 0;
+			padding-top: 70px;
+			padding-bottom: 70px;
+			padding-right: 0;
+			padding-left: 0;
+<body>
+<div class="wrap"></div>
+
+
