@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>homework-1</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+	<nav id="navbar-example2" class="navbar navbar-light bg-light">
+		<a class="navbar-brand" href="#"><strong>homework1 </strong></a>
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" href="#fat">로그인</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#mdo">장바구니</a>
+			</li>
+
+			<!-- dropdown -->
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MyShopping</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">최근본상품</a>
+					<a class="dropdown-item" href="#">선물하기</a>
+					<a class="dropdown-item" href="#">배송조회</a>
+				</div>
+			</li>
+
+
+		</ul>
+	</nav>
+
+
+	<div class="card text-center" style="max-width: 60rem;">
+		<div class="card-header">
+			<ul class="nav nav-tabs card-header-tabs">
+				<li class="nav-item">
+					<a class="nav-link" href="#">상품상세정보</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">고객상품평</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">상품 Q&A</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">반품/교환정보</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="card-body">
+			<h5 class="card-title">KUSMI TEA 쿠스미티  (Anastasia 125g)
+				<small class="text-muted">PRICE: 36,000원 </small>
+				<span class="badge badge-pill badge-success">재입고</span>
+			</h5>
+			<hr>
+
+			<!-- 이미지 삽입. 총 3장 필요함. -->
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNJ6c4SmDVzeisq4m1IxcfBjCdFXKZcA6gueREQiZgzfwdPni&s/">
+
+			<!-- 상품설명 -->
+			<hr>
+			<h5 class="mt-0">베르가못과 레몬이 어우러진 오렌지 블로섬 가향 홍차</h5>
+			<p class="text-sm-left"><em>니콜라스 2세 황제의 딸, '황녀 아나스타샤'의 이야기에서 영감을 받아 만든 쿠스미만의 특별한 얼그레이 블렌드입니다. 베르가못, 레몬, 그리고 오렌지 블로섬이 홍차와 조화를 이루어 고혹적인 풍미를 선사합니다.</em></p>
+
+
+
+			<HR>
+
+			<label for="basic-url" STYLE="FONT-WEIGHT-BOLD">주문하기</label>
+
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">주문자성명</span>
+				</div>
+				<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+			</div>
+
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">전화번호</span>
+				</div>
+				<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+			</div>
+
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<span class="input-group-text" id="basic-addon3">주소</span>
+				</div>
+				<input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+			</div>
+
+
+			<p> 
+				<select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+					<option selected>수량선택</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select> 
+			</P>
+
+
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">기타요청사항</span>
+				</div>
+				<textarea class="form-control" aria-label="With textarea"></textarea>
+			</div>
+			<hr>
+
+
+			<button type="button" class="btn btn-outline-primary">주문하기</button>
+			<button type="button" class="btn btn-outline-danger">장바구니</button>
+			<button type="button" class="btn btn-outline-dark">재입고알림</button>
+		</div>
+	</div>
+
+</body>
+
+</body>
+</html>
