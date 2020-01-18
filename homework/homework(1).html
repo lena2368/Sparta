@@ -5,10 +5,15 @@
 	<title>homework-1</title>
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	
 </head>
 <body>
 
-
+<script>function myFunction() {
+	alert("이름을 작성해주세요!")
+}
+</script>
 
 	<nav id="navbar-example2" class="navbar navbar-light bg-light">
 		<a class="navbar-brand" href="#"><strong>homework1 </strong></a>
@@ -33,6 +38,9 @@
 
 		</ul>
 	</nav>
+
+
+
 
 
 	<div class="card text-center" style="max-width: 60rem;">
@@ -61,7 +69,8 @@
 			</h5>
 			<hr>
 
-			<!-- 이미지 삽입. 총 3장 필요함. -->
+
+			<!-- 이미지 삽입.   -->
 			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNJ6c4SmDVzeisq4m1IxcfBjCdFXKZcA6gueREQiZgzfwdPni&s/">
 
 			<!-- 상품설명 -->
@@ -116,7 +125,7 @@
 			<hr>
 
 
-			<button type="button" class="btn btn-outline-primary">주문하기</button>
+			<button onclick="myFunction()" type="button" class="btn btn-outline-primary">주문하기</button>
 			<button type="button" class="btn btn-outline-danger">장바구니</button>
 			<button type="button" class="btn btn-outline-dark">재입고알림</button>
 		</div>
