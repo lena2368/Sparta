@@ -87,7 +87,7 @@
   			listing();
   		});
 
-  		window.onload = function listing() {
+  		function listing() {
   			$.ajax({
   				type: "GET",
   				url: "http://spartacodingclub.shop/order",
@@ -108,10 +108,10 @@
 
   		function make_card(name,count,address,phone){
   			let temp_html = '<tr>\
-  			<td>'+name'</td>\
-  			<td>'+count'</td>\
-  			<td>'+address'</td>\
-  			<td>'+phone'</td>\
+  			<td>'+name+'</td>\
+  			<td>'+count+'</td>\
+  			<td>'+address+'</td>\
+  			<td>'+phone+'</td>\
   			</tr>';
   			$('#orders-box').append(temp_html);
   		}
