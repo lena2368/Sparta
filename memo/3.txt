@@ -1,0 +1,2 @@
+Jquery + Javascript
+Ajax는 Jquery로만 수행가능
